@@ -1,0 +1,215 @@
+li {
+   list-style:none;
+}
+.intro{
+  color:PapayaWhip;
+  background-color:navy;
+  position:relative;
+  text-align:center;
+}
+.prag{
+  background-color:white;
+}
+.splitscreen{
+  height:120px;
+  float:left;
+  margin:0 1em;
+}
+.oval{
+  height:120px;
+  float:right;
+  margin:0 2em;
+}
+.bigscreen{
+  height:120px;
+  float:left;
+  margin:0 1em;
+}
+.last{
+  height:120px;
+  float:right;
+  margin:0 2em;
+}
+#main{
+ color:navy;
+  background-color:PapayaWhip;
+  font-family: arial;
+  padding: 50px;
+  margin-right:50%;
+  max-width: 500px;
+  margin: auto;
+  
+
+}
+#title{
+ font-style:italic;
+ background-color:navy;
+ color:PapayaWhip;
+ margin-right:5%;
+ padding:5px;
+ width:590px;
+  
+}
+#image{
+ border: dashed 5px;
+  position: relative;
+  height: auto;
+  max-width: 500px;
+  margin: auto;
+  display:block;
+ 
+}
+#img-caption{
+ font-size:13px;
+ background-color:black;
+ margin-right:50px;
+}
+
+#tribute-info{
+ background-color:#3D1C05;
+ color: PapayaWhip;
+ margin-right:25px;
+  
+}
+
+#tribute-link{
+  a:visited {
+    color:green;
+  }
+  a:hover {
+  color:red;
+  }
+}
+
+thead{
+background-color: #3D1C05;
+  color:PapayaWhip;
+}
+td{
+ border:solid 2px;
+ 
+}
+table{
+ border:solid 2px;
+ border-collapse: collapse;
+}
+.btn{
+  background-color:navy;
+  color:PapayaWhip;
+  text-decoration:none;
+  padding:10px;
+  transition:all ease-in-out 250ms;
+}
+
+header{
+  background-color:navy;
+  margin: -50px 0px;
+  padding: 1px;
+  possition: fixed;
+  
+ 
+ }
+#head{
+width:600px;
+
+ padding:10;
+} 
+
+nav a{
+ text-decoration:none;
+ color:PapayaWhip;
+ padding:5px;
+ font-weight:bold;
+}
+
+nav li{
+display:inline;
+margin:5px;
+  
+}
+nav a:hover{
+  color:yellow;
+}
+p{
+ font-size:1rem;
+}
+#page{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1000px-Solid_white.svg.png");
+  width:600px;
+  }
+
+/*iPad media Query*/
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  
+ #title {
+    width: 100%;
+  }
+  #head {
+  width: 100%;
+}
+ nav li{
+   display:block;
+}
+  #image {
+    width: 90%;
+  }
+ #page{
+  width: 100%;
+  
+}
+ /*iPhone X media Query*/
+  
+@media screen and (min-width:0px) and (max-width:812px) {
+  #title {
+    width: 100%;
+  }
+  #head {
+  width: 100%;
+}
+ nav li{
+   display:block;
+}
+  #image {
+    width: 90%;
+  }
+ #page{
+  width: 100%;
+}
+  /*iPhone 6/7/8 media Query*/
+  
+@media screen and (min-width:0px) and (max-width:667px) {
+   #title {
+    width: 100%;
+  }
+  #head {
+  width: 100%;
+}
+ nav li{
+   display:block;
+}
+  #image {
+    width: 90%;
+  }
+ #page{
+  width: 100%;
+}
+  /*iPhone 5/5s/SE media Query*/
+  
+@media screen and (min-width:0px) and (max-width:568px) {
+    #title {
+    width: 100%;
+  }
+  #head {
+  width: 100%;
+}
+ nav li{
+   display:block;
+}
+  #image {
+    width: 90%;
+  }
+ #page{
+  width: 100%;
+}
+}
